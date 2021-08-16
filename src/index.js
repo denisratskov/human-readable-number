@@ -1,5 +1,4 @@
 module.exports = function toReadable (number) {
-  5
+  999
 }
-toReadable(5); // Вернет "пять"
 toReadable(999); //вернет "девятьсот девяносто девять"

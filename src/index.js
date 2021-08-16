@@ -1,5 +1,5 @@
 module.exports = function toReadable (number) {
-  999
+  9990
 }
 toReadable(999); //вернет "девятьсот девяносто девять"
 module.exports = function toReadable (number) {

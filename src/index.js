@@ -10,26 +10,26 @@
     }
 
     if (number >= 50) {
-        result = numbersInWords[+reverseNumberInArray[2]] + "fifty"; 
+        result = numbersInWords[reverseNumberInArray[2]] + "fifty"; 
     }
      
     if (reverseNumberInArray[1] != 0) {
         if (reverseNumberInArray[1] != 1) {
             if (reverseNumberInArray[1]+11) {
-                result = result + " " + numbersInWords[+reverseNumberInArray[1]+11]; 
+                result = result + " " + numbersInWords[reverseNumberInArray[1]+11]; 
             }
             
             if (reverseNumberInArray[0] != 0) {
-                result = result + " " + numbersInWords[+reverseNumberInArray[0]];
+                result = result + " " + numbersInWords[reverseNumberInArray[0]];
             }
             
         } else {
-            result = result + " " + numbersInWords[+reverseNumberInArray[0]+10];
+            result = result + " " + numbersInWords[reverseNumberInArray[0]+10];
         }
         
     } else {
         if (reverseNumberInArray[0] != 0) {
-            result = result + " " + numbersInWords[+reverseNumberInArray[0]];
+            result = result + " " + numbersInWords[reverseNumberInArray[0]];
         }
         
     }

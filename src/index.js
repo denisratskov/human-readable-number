@@ -18,16 +18,20 @@
             if (+reverseNumberInArray[1]+11) {
                 result = result + " " + numbersInWords[+reverseNumberInArray[1]+11]; 
             }
+            
             if (+reverseNumberInArray[0] != 0) {
                 result = result + " " + numbersInWords[+reverseNumberInArray[0]];
             }
+            
         } else {
             result = result + " " + numbersInWords[+reverseNumberInArray[0]+10];
         }
+        
     } else {
         if (+reverseNumberInArray[0] != 0) {
             result = result + " " + numbersInWords[+reverseNumberInArray[0]];
         }
+        
     }
       
     return result.trim();

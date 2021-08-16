@@ -22,7 +22,7 @@
                 result = result + " " + numbersInWords[+reverseNumberInArray[0]];
             }
         } else {
-            result = result + " " + numbersInWords[+reverseNumberInArray[0]+10];
+            result = result + " " + numbersInWords[+reverseNumberInArray[0]+11];
         }
     } else {
         if (+reverseNumberInArray[0] != 0) {

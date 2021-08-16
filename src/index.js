@@ -13,13 +13,13 @@
         result = numbersInWords[+reverseNumberInArray[2]] + "fifty"; 
     }
      
-    if (+reverseNumberInArray[1] != 0) {
-        if (+reverseNumberInArray[1] != 1) {
-            if (+reverseNumberInArray[1]+11) {
+    if (reverseNumberInArray[1] != 0) {
+        if (reverseNumberInArray[1] != 1) {
+            if (reverseNumberInArray[1]+11) {
                 result = result + " " + numbersInWords[+reverseNumberInArray[1]+11]; 
             }
             
-            if (+reverseNumberInArray[0] != 0) {
+            if (reverseNumberInArray[0] != 0) {
                 result = result + " " + numbersInWords[+reverseNumberInArray[0]];
             }
             
@@ -28,7 +28,7 @@
         }
         
     } else {
-        if (+reverseNumberInArray[0] != 0) {
+        if (reverseNumberInArray[0] != 0) {
             result = result + " " + numbersInWords[+reverseNumberInArray[0]];
         }
         
